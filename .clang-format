@@ -1,0 +1,7 @@
+---
+BasedOnStyle: 'WebKit'
+ColumnLimit: 0
+PointerAlignment: Right
+AllowShortIfStatementsOnASingleLine: true
+BreakConstructorInitializersBeforeComma: true
+
