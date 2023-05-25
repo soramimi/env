@@ -1,9 +1,14 @@
----
-BasedOnStyle: 'WebKit'
-TabWidth: 4
+BasedOnStyle: WebKit
+IndentWidth: 4
 UseTab: Always
-ColumnLimit: 0
+TabWidth: 4
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterControlStatement: false
+IndentCaseLabels: false
 PointerAlignment: Right
 AllowShortIfStatementsOnASingleLine: true
-BreakConstructorInitializersBeforeComma: true
-
+BreakConstructorInitializers: BeforeComma
+PackConstructorInitializers: false
+ColumnLimit: 0
