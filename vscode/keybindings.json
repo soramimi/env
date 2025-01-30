@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+right",
+        "command": "cursorWordStartRight"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "cursorWordStartRightSelect"
+    },
+    {
+        "key": "f1",
+        "command": "workbench.explorer.fileView.focus"
+    }
+]

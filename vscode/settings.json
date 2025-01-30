@@ -1,0 +1,70 @@
+{
+    "terminal.integrated.enablePersistentSessions": false,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "files.hotExit": "off",
+    "debug.internalConsoleOptions": "neverOpen",
+    "debug.openDebug": "neverOpen",
+    "debug.saveBeforeStart": "none",
+    "editor.fontSize": 24,
+    "editor.fontFamily": "HackVine Gothic Regular",
+    "workbench.editor.enablePreview": false,
+    "editor.stickyScroll.enabled": false,
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000030"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Default Dark Modern]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "variable",              // 一般的な変数
+                        "variable.other",        // 他の変数
+                        "variable.language",      // 言語固有の変数
+                        "keyword.operator",  // 演算子として使われる予約語
+                    ],
+                    "settings": {
+                        "foreground": "#FFFFFF"  // 変数の色を白に変更
+                    }
+                },
+                {
+                    "scope": [
+                        "string.quoted.double",
+                        "string.quoted.single",
+                        "string.quoted.template"
+                    ],
+                    "settings": {
+                        "foreground": "#FFFF00"  // 文字列リテラルの色を黄色に変更
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword",  // すべての予約語
+                        "keyword.control",  // 制御フローのキーワード（if, for など）
+                    ],
+                    "settings": {
+                        "foreground": "#00FFFF"  // 予約語の色をシアンに変更
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type.class",
+                        "entity.name.type",      // 型名（例えば、int、string）
+                        "support.type"           // サポートされている型
+                    ],
+                    "settings": {
+                        "foreground": "#a0a0FF"  // 予約語の色を薄紫に変更
+                    }
+                },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#00c000"  // コメントの色を緑に変更
+                    }
+                }
+            ]
+        }
+    }
+}
