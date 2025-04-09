@@ -6,12 +6,11 @@
     "debug.internalConsoleOptions": "neverOpen",
     "debug.openDebug": "neverOpen",
     "debug.saveBeforeStart": "none",
-    "editor.fontSize": 24,
+    "editor.fontSize": 20,
     "editor.fontFamily": "HackVine Gothic Regular",
     "workbench.editor.enablePreview": false,
     "editor.stickyScroll.enabled": false,
     "cmake.showOptionsMovedNotification": false,
-    "workbench.colorTheme": "Default Dark Modern",
     "workbench.colorCustomizations": {
         "editor.background": "#000030"
     },
@@ -67,6 +66,14 @@
             ]
         }
     },
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.matchBrackets": "never",
+    "editor.dragAndDrop": false,
+    "editor.cursorWidth": 3,
     "chat.agent.enabled": true,
-    "window.restoreWindows": "none"
+    "window.restoreWindows": "none",
 }
