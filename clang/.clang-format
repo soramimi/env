@@ -10,5 +10,4 @@ IndentCaseLabels: false
 PointerAlignment: Right
 AllowShortIfStatementsOnASingleLine: true
 BreakConstructorInitializers: BeforeComma
-PackConstructorInitializers: false
 ColumnLimit: 0

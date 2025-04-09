@@ -66,5 +66,7 @@
                 }
             ]
         }
-    }
+    },
+    "chat.agent.enabled": true,
+    "window.restoreWindows": "none"
 }
