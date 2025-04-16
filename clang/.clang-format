@@ -11,3 +11,5 @@ PointerAlignment: Right
 AllowShortIfStatementsOnASingleLine: true
 BreakConstructorInitializers: BeforeComma
 ColumnLimit: 0
+NamespaceIndentation: None
+
