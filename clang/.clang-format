@@ -6,10 +6,22 @@ BreakBeforeBraces: Custom
 BraceWrapping:
   AfterFunction: true
   AfterControlStatement: false
+  AfterClass: false
+  AfterEnum: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
 IndentCaseLabels: false
 PointerAlignment: Right
-AllowShortIfStatementsOnASingleLine: true
-BreakConstructorInitializers: BeforeComma
+ReferenceAlignment: Right
 ColumnLimit: 0
 NamespaceIndentation: None
-
+AlwaysBreakTemplateDeclarations: No
+AllowShortCaseLabelsOnASingleLine: true
+QualifierAlignment: Custom
+QualifierOrder: ['constexpr', 'volatile', 'static', 'inline', 'type', 'const']
+SpaceBeforeRangeBasedForLoopColon: true
+AllowShortIfStatementsOnASingleLine: WithoutElse
